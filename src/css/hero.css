@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  background-color: #1E1E1E;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.image-section img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.button-section {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 14px 28px;
+  border: 1.5px solid #CDA075;
+  border-radius: 12px;
+  background-color: #3a3939;
+  color: #CDA075;
+  cursor: pointer;
+  box-shadow: 1px 4px 10px 0 rgba(205, 160, 117, 0.32);
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #CDA075;
+  color: #3a3939;
+  box-shadow: 0 6px 12px rgba(227, 181, 123, 0.5);
+}
+
+.offer-section {
+    background-color: #312113;
+    height: 50px;
+    color: #CDA075;
+    display: flex;
+    align-items: center;     
+    justify-content: center;
+}
