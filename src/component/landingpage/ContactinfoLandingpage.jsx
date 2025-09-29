@@ -1,5 +1,5 @@
 import React from 'react';
-import '../css/contactinfo_landingpage.css'; // Import the CSS file
+import '../../css/landingpage/contactinfo_landingpage.css'; // Import the CSS file
 
 function ContactinfoLandingpage()
 {

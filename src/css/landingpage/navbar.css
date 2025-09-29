@@ -23,7 +23,8 @@ header {
 }
 
 .logo img {
-  width: 120px;
+  width: 229px;
+  height: 70px;
 }
 
 .logo .tagline {
@@ -35,7 +36,7 @@ header {
 nav ul {
   list-style: none;
   display: flex;
-  gap: 30px;
+  gap: 35px;
   margin: 0;
   padding: 0;
 }

@@ -22,21 +22,21 @@
 }
 
 .img-top {
-  width: 345px;
+  width: 390px;
   border-radius: 16px;
   position: relative;
   z-index: 1;
-  bottom: -25px;
+  bottom: -10px;
   left: 80px;
   box-shadow: 0 0px 10px rgba(205,160,117,50);
 }
 
 .img-bottom {
-  width: 230px;
+  width: 250px;
   border-radius: 16px;
   position: absolute;
   bottom: -145px;
-  left: -30px;
+  left: -25px;
   z-index: 2;
   box-shadow: 0 0px 10px rgba(205,160,117,50);
 }
@@ -46,9 +46,9 @@
   color: #e2b17e;
   font-weight: normal;
   font-size: 44px;
-  margin-top: 65px;
+  margin-top: 55px;
   text-align: center;
-  margin-left: 120px;
+  margin-left: 45px;
 }
 
 .about-right {

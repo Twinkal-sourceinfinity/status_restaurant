@@ -1,5 +1,5 @@
 import React from "react";
-import "../css/bestmenu.css";
+import "../../css/landingpage/bestmenu.css";
 
 const menuItems = [
   {
