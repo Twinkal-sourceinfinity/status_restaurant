@@ -4,7 +4,7 @@ import { Link, useLocation } from "react-router-dom";
 
 const Navbar = () => {
 
- const location = useLocation(); // gives current URL path
+const location = useLocation(); // gives current URL path
 const currentPath = location.pathname;
   
   return (

@@ -1,0 +1,166 @@
+.restaurant-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 660px;
+}
+
+.restaurant-image {
+  width: 80%;
+}
+
+.restaurant-image img {
+  width: 100%;
+  height: 550px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 50px -10px #C40B1A;
+  background: #000;
+  transition: transform 0.3s ease;
+}
+
+.restaurant-image img:hover {
+  transform: scale(1.02); /* subtle zoom on hover */
+}
+
+.contact-container {
+  background-color: #1a1a1a;
+  color: white;
+  padding-top: 70px;
+  text-align: center;
+}
+
+.contact-title {
+  color: #C40B1A;
+  font-size: 36px;
+  font-weight: unset;
+  margin-bottom: 10px;
+  margin-top: 0px;
+}
+
+.contact-subtitle {
+  color: #fff;
+  font-style: italic;
+  margin-bottom: 60px;
+  font-size: 18px;
+}
+
+.contact-content {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 60px;
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+/* Left Side */
+.contact-info {
+  flex: 1;
+  min-width: 280px;
+  margin: auto;
+}
+
+.contact-info h3 {
+  color: #C40B1A;
+  font-size: 28px;
+  margin-bottom: 30px;
+  font-weight: unset;
+}
+
+.info-item {
+  display: flex;
+  align-items: center;
+  color: #ddd;
+  margin-bottom: 30px;
+  font-size: 16px;
+}
+
+.icon {
+  color: #C40B1A;
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+/* Right Side */
+.contact-form {
+  flex: 1;
+  min-width: 300px;
+}
+
+.contact-form h3 {
+  color: #C40B1A;
+  font-size: 28px;
+  margin-bottom: 30px;
+  font-weight: unset;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  background-color: #222;
+  color: #D9D9D9;
+  border: 1px solid #D9D9D9;
+  border-radius: 6px;
+  padding: 12px;
+  font-size: 15px;
+  outline: none;
+  transition: border-color 0.3s;
+  margin-bottom: 10px;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #C40B1A;
+}
+
+.contact-form button {
+  background-color: #C40B1A;
+  color: white;
+  font-size: 20px;
+  font-weight: unset;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 203px;
+  height: 56px;
+  margin: auto;
+}
+
+.contact-form button:hover {
+  background-color: #C40B1A;
+}
+
+.contact-map
+{
+  height: 470px;
+  margin-top: 50px;
+}
+.contact-map img{
+  height: 100%;
+  width: 100%;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .contact-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .contact-info,
+  .contact-form {
+    text-align: center;
+  }
+
+  .info-item {
+    justify-content: center;
+  }
+}

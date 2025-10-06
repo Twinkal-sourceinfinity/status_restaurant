@@ -1,0 +1,70 @@
+.chefs-section {
+  background-color: #1a1a1a; /* dark background */
+  padding: 60px 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.chefs-title {
+  font-size: 36px;
+  margin-bottom: 40px;
+  color: #c82333; /* red heading */
+}
+
+.chefs-container {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.chef-card {
+  height: 500px;
+  width: 400px;
+  background: transparent;
+  border: 1px solid #d4a373;
+  text-align: center;
+}
+
+.chef-card:hover {
+  transform: translateY(-5px);
+}
+
+.chef-img1
+{
+  transform: scaleX(-1);
+}
+
+.chef-name {
+  margin-bottom: 20px;
+  font-size: 32px;
+  color: #fff;
+}
+
+.chef-detail
+{
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.chef-detail div{
+    margin-bottom: 80px;
+}
+
+.chef-desc {
+  margin: 0 auto;
+  font-size: 16px;
+  color: #ccc;
+  max-width: 250px;
+  line-height: 1.5;
+}
+
+.aboutus-offer-section {
+    background-color: #312113;
+    height: 60px;
+    color: #CDA075;
+    display: flex;
+    align-items: center;     
+    justify-content: center;
+    font-size: 14px;
+}

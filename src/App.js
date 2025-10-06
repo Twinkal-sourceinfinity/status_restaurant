@@ -7,6 +7,12 @@ import AboutusLandingpage from "./component/landingpage/AboutusLandingpage";
 import ContactinfoLandingpage from "./component/landingpage/ContactinfoLandingpage";
 
 import Aboutuspagehero from "./component/aboutus/Aboutuspagehero";
+import Aboutuspagedetail from "./component/aboutus/Aboutuspagedetail";
+import Chefdetail from "./component/aboutus/Chefdetail";
+
+import Franchisepagehero from "./component/franchise/Franchisepagehero";
+
+import Contactuspagehero from "./component/contactus/Contactuspagehero";
 
 function HomePage() {
   return (
@@ -23,9 +29,28 @@ function Aboutuspage() {
   return (
     <>
       <Aboutuspagehero />
+      <Aboutuspagedetail />
+      <Chefdetail />
     </>
   )
 }
+
+function Franchisepage(){
+  return (
+    <>
+      <Franchisepagehero />
+    </>
+  )
+}
+
+function Contactuspage() {
+  return (
+    <>
+      <Contactuspagehero />
+    </>
+  )
+}
+
 
 function App() {
   return (
@@ -35,8 +60,8 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<Aboutuspage />} />
         <Route path="/food" element={<Bestmenu />} />
-        <Route path="/franchise" element={<h1>Franchise Page Coming Soon...</h1>} />
-        <Route path="/contact" element={<ContactinfoLandingpage />} />
+        <Route path="/franchise" element={<Franchisepage />} />
+        <Route path="/contact" element={<Contactuspage />} />
       </Routes>
     </Router>
   );

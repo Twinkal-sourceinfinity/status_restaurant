@@ -21,3 +21,29 @@
 .restaurant-image img:hover {
   transform: scale(1.02); /* subtle zoom on hover */
 }
+
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 25px; /* space between buttons */
+}
+
+.hero-btn {
+  background-color: #333; /* dark gray background */
+  color: #d4a373; /* soft golden text */
+  border: 1px solid #d4a373;
+  padding: 12px 28px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(212, 163, 115, 0.4); /* golden glow */
+  transition: all 0.3s ease;
+  margin: 20px 0px;
+}
+
+.hero-btn:hover {
+  background-color: #444;
+  transform: translateY(-2px); /* lift on hover */
+  box-shadow: 0 6px 10px rgba(212, 163, 115, 0.6);
+}
