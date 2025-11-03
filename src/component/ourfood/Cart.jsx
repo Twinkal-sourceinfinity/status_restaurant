@@ -3,9 +3,9 @@ import "../../css/ourfood/cart.css";
 
 const Cart = () => {
   const cartItems = [
-    { name: "Item Name", price: 19.99, img: "/image/sizzler.jpg" },
-    { name: "Item Name", price: 19.99, img: "/image/sizzler.jpg" },
-    { name: "Item Name", price: 19.99, img: "/image/sizzler.jpg" },
+    { name: "Item Name", price: 19.99, img: `${process.env.REACT_APP_IMAGE_URL}sizzler.jpg`},
+    { name: "Item Name", price: 19.99, img: `${process.env.REACT_APP_IMAGE_URL}sizzler.jpg`},
+    { name: "Item Name", price: 19.99, img: `${process.env.REACT_APP_IMAGE_URL}sizzler.jpg`},
   ];
 
   const subtotal = 42.0;
@@ -13,8 +13,8 @@ const Cart = () => {
   const total = subtotal + tax;
 
   const menubackground = {
-        backgroundImage: 'url("/image/bg-image.jpg")',
-    };
+        backgroundImage: `url(${process.env.REACT_APP_IMAGE_URL}bg-image.jpg)`,
+  }
 
   return (
     <div className="cart-section" style={menubackground}>

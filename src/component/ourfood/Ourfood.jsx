@@ -7,25 +7,25 @@ const Ourfood = () => {
     {
       name: "Dhosa",
       price: 29,
-      img: "/image/dhosa.png",
+      img: `${process.env.REACT_APP_IMAGE_URL}dhosa.png`,
       desc: "Lorem ipsum is a dummy or placeholder text commonly used in graphic design, publishing, and web development.",
     },
     {
       name: "Sizzler",
       price: 29,
-      img: "/image/sizzler.jpg",
+      img: `${process.env.REACT_APP_IMAGE_URL}sizzler.jpg`,
       desc: "Lorem ipsum is a dummy or placeholder text commonly used in graphic design, publishing, and web development.",
     },
     {
       name: "Tandoori Chicken",
       price: 29,
-      img: "/image/tandoori.jpg",
+      img: `${process.env.REACT_APP_IMAGE_URL}tandoori.jpg`,
       desc: "Lorem ipsum is a dummy or placeholder text commonly used in graphic design, publishing, and web development.",
     },
   ];
 
 const menubackground = {
-        backgroundImage: 'url("/image/bg-image.jpg")',
+        backgroundImage: `url(${process.env.REACT_APP_IMAGE_URL}bg-image.jpg)`
     };
   
   return (

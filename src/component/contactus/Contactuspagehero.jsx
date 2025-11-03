@@ -5,7 +5,7 @@ import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from "react-icons/fa";
 
 const Contactuspagehero = () => {
     const restaurantContainer = {
-            backgroundImage: 'url("/image/bg-image.jpg")',
+            backgroundImage: `url(${process.env.REACT_APP_IMAGE_URL}bg-image.jpg)`,
         };
 
     return (
@@ -13,7 +13,7 @@ const Contactuspagehero = () => {
         <div>
             <div style={restaurantContainer} className="restaurant-container">
                 <div className="restaurant-image">
-                    <img src="/image/aboutus_hero.jpeg" alt="Restaurant Interior" />
+                    <img src={`${process.env.REACT_APP_IMAGE_URL}about_us.jpeg`} alt="Restaurant Interior" />
                 </div>
             </div>
         </div>
@@ -52,7 +52,7 @@ const Contactuspagehero = () => {
             </div>
 
             <div className="contact-map">
-                <img src="/image/map.png" alt="Restaurant Interior" />
+                <img src={`${process.env.REACT_APP_IMAGE_URL}map.png`} alt="Restaurant Interior" />
             </div>
 
             <footer>

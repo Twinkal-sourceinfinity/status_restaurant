@@ -4,18 +4,20 @@ import "../../css/aboutus/aboutus_hero.css";
 
 const Aboutuspagehero = () => {
     const restaurantContainer = {
-            backgroundImage: 'url("/image/bg-image.jpg")',
+            backgroundImage: `url(${process.env.REACT_APP_IMAGE_URL}bg-image.jpg)`,
         };
 
     const buttonContainer = {
-            backgroundImage: 'url("/image/bg-image.jpg")',
+            backgroundImage: `url(${process.env.REACT_APP_IMAGE_URL}bg-image.jpg)`,
         };
 
     return (
         <div>
             <div style={restaurantContainer} className="restaurant-container">
                 <div className="restaurant-image">
-                    <img src="/image/aboutus_hero.jpeg" alt="Restaurant Interior" />
+                    <img 
+                        src={`${process.env.REACT_APP_IMAGE_URL}aboutus_hero.jpeg`}
+                        alt="Restaurant Interior" />
                 </div>
             </div>
             <div style={buttonContainer} className="hero-buttons">

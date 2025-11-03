@@ -6,25 +6,25 @@ const menuItems = [
     name: "Dahi Puri",
     description: "Crispy, tangy yogurt snack.",
     price: "16.90$",
-    image: "/image/dahi-puri.jpeg",
+    image: `url(${process.env.REACT_APP_IMAGE_URL}dahi-puri.jpeg)`,
   },
   {
     name: "Garlic Naan",
     description: "Buttery garlic flatbread.",
     price: "6.90$",
-    image: "/image/garlic-naan.jpg",
+    image: `url(${process.env.REACT_APP_IMAGE_URL}garlic-naan.jpg)`,
   },
   {
     name: "Palak Paneer",
     description: "Spinach and cheese curry.",
     price: "25.90$",
-    image: "/image/palak-paneer.jpg",
+    image: `url(${process.env.REACT_APP_IMAGE_URL}palak-paneer.jpg)`,
   },
   {
     name: "Samosa",
     description: "Spiced potato pastry with paneer.",
     price: "19.90$",
-    image: "/image/samosa.jpg",
+    image: `url(${process.env.REACT_APP_IMAGE_URL}samosa.jpg)`,
   },
 ];
 

@@ -9,7 +9,7 @@ const Franchisepagehero = () => {
         <div>
             <div className="image-container">
                 <div className="franchise-image">
-                    <img src="/image/franchise.jpg" alt="Franchise Interior" />
+                    <img src={`${process.env.REACT_APP_IMAGE_URL}franchise.jpg`} alt="Franchise Interior" />
                 </div>
             </div>
             <div className="why-container">

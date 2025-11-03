@@ -10,7 +10,7 @@ const Chefdetail = () => {
             
             {/* Chef 1 */}
             <div className="chef-card">
-            <img src="/image/chef_2.png" alt="Chef Anil" className="chef-img" />
+            <img src={`${process.env.REACT_APP_IMAGE_URL}chef_2.png`} alt="Chef Anil" className="chef-img" />
             </div>
 
             <div className="chef-detail">
@@ -30,7 +30,7 @@ const Chefdetail = () => {
 
             {/* Chef 2 */}
             <div className="chef-card">
-            <img src="/image/chef_1.png" alt="Chef Raj" className="chef-img chef-img1" />
+            <img src={`${process.env.REACT_APP_IMAGE_URL}chef_1.jpeg`} alt="Chef Raj" className="chef-img chef-img1" />
             </div>
         </div>
         </div>
