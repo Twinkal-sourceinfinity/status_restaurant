@@ -1,0 +1,146 @@
+.cart-section {
+  background: #2b1a0c;
+  padding: 20px;
+  border-radius: 10px;
+  width: 35%;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+  position: relative;
+  z-index: 1;
+}
+
+.cart-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.3;
+  backdrop-filter: blur(15px);
+  background: rgba(80, 50, 20, 1);
+  z-index: -1; /* keep it behind the content */
+}
+
+.cart-title {
+  color: #C20E19;
+  font-size: 26px;
+  margin-bottom: 20px;
+  font-weight: unset;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #292017;
+  padding: 5px;
+  border-radius: 8px;
+  margin: 15px 0;
+  color: #fff;
+}
+
+.item-info {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding-right: 12px;
+  width: 45%;
+}
+
+.item-img {
+  width: 80px;
+  height: 60px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.item-details h4 {
+  margin: 0;
+  font-weight: unset;
+  font-size: 16px;
+}
+
+.item-details p {
+  margin: 2px 0 0 0;
+  font-size: 12px;
+  color: #ccc;
+}
+
+.item-price {
+  color: #C20E19;
+  /* font-weight: bold; */
+  font-size: 18px;
+  margin: 0 15px;
+}
+
+.item-quantity {
+  display: flex;
+  align-items: center;
+}
+
+.item-quantity button {
+  background-color: #4a3222;
+  border: 1px solid;
+  color: white;
+  width: 28px;
+  height: 28px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.item-quantity span {
+  background-color: #2f1e13;
+  padding: 4px 10px;
+  border-radius: 4px;
+}
+
+.cart-summary {
+  margin-top: 20px;
+  border-top: 1px solid #CDA075;
+  padding-top: 10px;
+  text-align: right;
+}
+
+.cart-summary p,
+.cart-summary h4 {
+  text-align: left;
+  margin: 5px 0;
+}
+
+.cart-summary span {
+  margin-left: 77%;
+}
+
+.checkout-btn {
+  background: #e74c3c;
+  color: #fff;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 20px;
+  font-weight: bold;
+  width: 100%;
+}
+
+.order-btn:hover {
+  background: #CDA075;
+  color: #404040;
+}
+
+.checkout-btn:hover {
+  background: #CDA075;
+  color: #404040;
+}
+
+.checkout-btn {
+  font-size: 20px;
+  background: #404040;
+  color: #CDA075;
+  border: 1px solid #CDA075;
+  padding: 8px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+  width: 30%;
+}

@@ -68,7 +68,7 @@ const Franchisepagehero = () => {
                 </div>
             </div>
             <footer>
-                <div className="aboutus-offer-section">© 2025 all rights reserved.</div>
+                <div className="offer-section">© 2025 all rights reserved.</div>
             </footer>
         </div>
     );

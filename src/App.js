@@ -10,6 +10,8 @@ import Aboutuspagehero from "./component/aboutus/Aboutuspagehero";
 import Aboutuspagedetail from "./component/aboutus/Aboutuspagedetail";
 import Chefdetail from "./component/aboutus/Chefdetail";
 
+import Ourfood from "./component/ourfood/Ourfood";
+
 import Franchisepagehero from "./component/franchise/Franchisepagehero";
 
 import Contactuspagehero from "./component/contactus/Contactuspagehero";
@@ -31,6 +33,14 @@ function Aboutuspage() {
       <Aboutuspagehero />
       <Aboutuspagedetail />
       <Chefdetail />
+    </>
+  )
+}
+
+function Ourfoodpage() {
+  return (
+    <>
+      <Ourfood />
     </>
   )
 }
@@ -59,7 +69,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<Aboutuspage />} />
-        <Route path="/food" element={<Bestmenu />} />
+        <Route path="/food" element={<Ourfoodpage />} />
         <Route path="/franchise" element={<Franchisepage />} />
         <Route path="/contact" element={<Contactuspage />} />
       </Routes>
