@@ -5,7 +5,7 @@ const Hero = () => {
     return <>
         <div className="container">
             <div className="image-section">
-                <img src={`url(${process.env.REACT_APP_IMAGE_URL}hero-image.png)`} alt="Hero" />
+                <img src={`${process.env.REACT_APP_IMAGE_URL}hero-image.png`} alt="Hero" />
             </div>
             <div className="button-section">
                 <button  className="btn">Order Online</button>
