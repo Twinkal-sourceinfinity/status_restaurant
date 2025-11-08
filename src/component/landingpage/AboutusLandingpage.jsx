@@ -6,8 +6,8 @@ function AboutusLandingpage(){
         <section className="about-section">
         <div className="about-left">
             <div className="image-stack">
-            <img src="image/restaurant_front.jpg" alt="Restaurant decor" className="img-bottom" />
-            <img src="image/people.jpg" alt="People" className="img-top" />
+            <img src={`${process.env.REACT_APP_IMAGE_URL}restaurant_front.jpg`} alt="Restaurant decor" className="img-bottom" />
+            <img src={`${process.env.REACT_APP_IMAGE_URL}people.jpg`} alt="People" className="img-top" />
             </div>
             <h2 className="since-text">Since 2019</h2>
         </div>

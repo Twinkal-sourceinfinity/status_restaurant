@@ -67,11 +67,11 @@ function App() {
     <Router>
       <Navbar />
       <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/about" element={<Aboutuspage />} />
-        <Route path="/food" element={<Ourfoodpage />} />
-        <Route path="/franchise" element={<Franchisepage />} />
-        <Route path="/contact" element={<Contactuspage />} />
+        <Route path="status_restaurant/" element={<HomePage />} />
+        <Route path="status_restaurant/about" element={<Aboutuspage />} />
+        <Route path="status_restaurant/food" element={<Ourfoodpage />} />
+        <Route path="status_restaurant/franchise" element={<Franchisepage />} />
+        <Route path="status_restaurant/contact" element={<Contactuspage />} />
       </Routes>
     </Router>
   );

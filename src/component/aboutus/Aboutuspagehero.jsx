@@ -15,9 +15,7 @@ const Aboutuspagehero = () => {
         <div>
             <div style={restaurantContainer} className="restaurant-container">
                 <div className="restaurant-image">
-                    <img 
-                        src={`${process.env.REACT_APP_IMAGE_URL}aboutus_hero.jpeg`}
-                        alt="Restaurant Interior" />
+                    <img src={`${process.env.REACT_APP_IMAGE_URL}aboutus_hero.jpeg`} alt="Restaurant Interior" />
                 </div>
             </div>
             <div style={buttonContainer} className="hero-buttons">
