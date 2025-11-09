@@ -19,7 +19,7 @@ function ContactinfoLandingpage()
 
         <div className="info-center">
             <div className="logo-circle">
-            <div className="logo-inner"><img src="image/nz-owned.png" alt="People" className="img-logo-inner" /></div>
+            <div className="logo-inner"><img src={`${process.env.REACT_APP_IMAGE_URL}nz-owned.png`} alt="People" className="img-logo-inner" /></div>
             </div>
         </div>
 
